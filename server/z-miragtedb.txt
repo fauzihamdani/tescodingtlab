@@ -1,0 +1,5 @@
+ npx sequelize init
+
+ npx sequelize-cli model:generate --name recipe --attributes recipeName:string
+
+ npx sequelize db:migrate
